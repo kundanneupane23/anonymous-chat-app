@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="373dp"
+        android:layout_height="607dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="571dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="287dp"
+                android:layout_height="175dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/anonomous" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text=" Go Anonymous!"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/namebox"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="35px"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="3dp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/passwordBox"
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="3dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/createbtn"
+                android:layout_width="334dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style2"
+                android:gravity="center"
+                android:text="Create an account.."
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style"
+                android:text="already have an account ..GO back to login"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

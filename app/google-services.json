@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978794699620",
+    "project_id": "go-anonymous-9528d",
+    "storage_bucket": "go-anonymous-9528d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978794699620:android:c75b6ef9dc9d26865fb871",
+        "android_client_info": {
+          "package_name": "com.example.anonymouschatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978794699620-rnh7ef8n8jdjl0aeukhcpffr2n38bn5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr8QI293il0CBroAxCjix6Tmv-w95GN4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978794699620-rnh7ef8n8jdjl0aeukhcpffr2n38bn5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
